@@ -4,7 +4,7 @@ var fizzBuzz = require('../code/index-1');
 
 function checkFizzBuzz(testValue, expectedResult){
     console.log(fizzBuzz);
-    var result = fizzBuzz.fizzbuzz(testValue);
+    var result = fizzBuzz(testValue);
     expect(result).to.equal(expectedResult);
 }
 
